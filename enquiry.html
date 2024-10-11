@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Section</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="enquiry.css" />
+  </head>
+  <body>
+    <!-- navbar section  start -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="/images/logo.png" alt="logo" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="search-box">
+        <input type="text" placeholder="serach..." />
+      </div>
+    </nav>
+    <!-- navbar section end -->
+
+    <!-- hero section start -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Enquiry Section</h1>
+      </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- enquiry form section start -->
+    <section class="enquiry-section">
+      <h1>Enquiry Form</h1>
+      <form class="enquiry-form">
+        <label for="name">Full Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter Your Full Name"
+          required
+        />
+        <label for="name">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter Your Email"
+          required
+        />
+        <label for="name">Phone Number</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Enter Your Phone Number"
+          required
+        />
+
+        <label for="course">Class</label>
+        <select name="course" id="course" required>
+          <option value="">Select Your Class</option>
+          <option>12th</option>
+          <option>11th</option>
+          <option>10th</option>
+          <option>9th</option>
+          <option>8th</option>
+          <option>7th</option>
+          <option>6th</option>
+          <option>5th</option>
+          <option>4th</option>
+          <option>3rd</option>
+          <option>2nd</option>
+          <option>1st</option>
+          <option>UKG</option>
+          <option>LKG</option>
+        </select>
+        <label for="message">Message</label>
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Enter Your Message"
+          rows="4"
+        ></textarea>
+        <button type="submit">Send Enquiry</button>
+      </form>
+    </section>
+    <!-- enquiry form section end -->
+
+    <!-- Footer section start -->
+    <footer>
+      <div class="footer-content">
+        <ul class="footer-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="enquiry.html">Enquiry</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="#" class="social-icon"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="#" class="social-icon"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="#" class="social-icon"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="#" class="social-icon"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+      <p class="footer-bottom">@Peace Coder</p>
+    </footer>
+    <!-- footer section end -->
+  </body>
+</html>
